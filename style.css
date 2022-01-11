@@ -1,0 +1,52 @@
+h1{
+    color:blanchedalmond;
+    border: 2px solid red;
+}
+
+h1:hover{
+    color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    font-size: 50px;
+}
+.middle-person:focus{
+    font-size: 30px;
+    color: red;
+}
+a:visited{
+    color: red;
+}
+li:first-child{
+    color: chocolate;
+}
+li:last-child{
+    color: cornflowerblue;
+}
+li:nth-child(2n+1){
+    color: crimson;
+}
+h4::before{
+    content: 'Hello';
+}
+h4::after{
+    content: ' Gelo';
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+.avatar{
+    position: sticky;
+}
+.checklist{
+    position: sticky;
+    left: 100px;
+    
+}
+.dammy{
+    width: 200px;
+    height: 150px;
+    background-color: rosybrown;
+}
